@@ -175,5 +175,5 @@ func (l *logger) baseData(givenData ...Data) Data {
 }
 
 func currentTimestamp() string {
-	return time.Now().Format(time.RFC3339)
+	return time.Now().Format(time.RFC3339Nano)
 }
